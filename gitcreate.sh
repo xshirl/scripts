@@ -13,7 +13,7 @@ read url
 
 git remote origin add "$url"
 
-git push origin master
+git push -u origin master
 
 read
 
