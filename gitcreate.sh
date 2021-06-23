@@ -11,7 +11,7 @@ git commit -m "$message"
 echo "enter github repo url"
 read url
 
-git remote origin add "$url"
+git remote add origin "$url"
 
 git push -u origin master
 
